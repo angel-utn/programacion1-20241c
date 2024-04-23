@@ -11,8 +11,7 @@ using namespace std;
 
 int main(){
     int i;
-    int numero, maximoNegativo = 0, minimoPositivo, contPositivos = 0;/// cero es absurdo por que ningun numero negativo es cero
-
+    int numero, maximoNegativo = 0;/// cero es absurdo por que ningun numero negativo es cero
 
     for(i=1; i<=10; i++){ /// pido la lista de numeros
         cout << "Ingrese numero: ";
@@ -23,15 +22,6 @@ int main(){
                 maximoNegativo = numero;
             }
         }
-        else{
-            if (numero > 0){ /// averiguar si el numero es positivo
-               contPositivos++;
-
-               if(contPositivos == 1 || numero < minimoPositivo){ /// averiguar el minimo
-                  minimoPositivo = numero;
-               }
-            }
-        }
     }
 
     if(maximoNegativo != 0){ /// verificamos si ingresaron negativos
@@ -40,14 +30,5 @@ int main(){
     else{
         cout << "No se ingresaron numeros negativos." << endl;
     }
-
-    if (contPositivos >= 1){
-      cout << "El minimo de los positivos es: " << minimoPositivo << endl;
-    }
-    else{
-      cout << "No se ingresaron numeros positivos." << endl;
-    }
-
-
     return 0;
 }
