@@ -24,10 +24,10 @@ int main(){
             }
         }
         else{
-            if (numero > 0){
+            if (numero > 0){ /// averiguar si el numero es positivo
                contPositivos++;
 
-               if(contPositivos == 1 || numero < minimoPositivo){
+               if(contPositivos == 1 || numero < minimoPositivo){ /// averiguar el minimo
                   minimoPositivo = numero;
                }
             }
