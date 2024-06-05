@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1717544948 source:c:\users\lenovo\downloads\programacion_i\clase12\dados\main.cpp
+	<iostream>
+	"funciones.h"
+	<cstdlib>
+	<ctime>
+
+1717546385 c:\users\lenovo\downloads\programacion_i\clase12\dados\funciones.h
+
+1717546385 source:c:\users\lenovo\downloads\programacion_i\clase12\dados\funciones.cpp
+	<iostream>
+	<locale>
+	"funciones.h"
+
